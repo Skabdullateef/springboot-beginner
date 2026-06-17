@@ -1,9 +1,38 @@
-body {
-    background-color: black;
-    color: white;
-}
+
 
 h1 {
     color: red;
     font-size: 50px;
+}
+#heading2 {
+    color: green;
+    font-size: 40px;
+}
+.heading {
+    color: red;
+}
+#para {
+    border: 2px;
+    border-style:solid;
+    border-color: black;
+    padding:20px;
+}
+#navbar {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: yellow;
+    text-align: center;
+}
+#navbar a {
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    
+}
+#navbar a:hover {
+    background-color: rgba(226, 172, 7, 0.381);
+    color: rgb(248, 78, 5);
+}
+body {
+    margin: 0;
 }
